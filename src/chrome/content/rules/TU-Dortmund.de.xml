@@ -1,0 +1,68 @@
+<!--
+	Dortmund University of Technology
+
+
+	Problematic subdomains:
+
+		- ^	(refused)
+		- www.physik. (Shows another domain)
+		- www.chemie. (Shows another domain)
+		- www.cs. (Shows another domain)
+		- www.mb. (Shows another domain)
+		- www.e-technik. (Shows another domain)
+		- www.fk14.
+		- www.kulturwissenschaften.
+		- www.fb16.
+
+
+	Fully covered subdomains:
+
+		- www.
+		- www.statistik.
+		- www.bci.
+		- www.raumplanung.
+		- www.bauwesen.
+		- www.wiso.
+		- www.fk12.
+		- www.fk-reha.
+		- www.lsf. (301)
+		- ess.cs. (301)
+		- moodle. (301)
+		- moodle2. (-> moodle.)
+		- webmail. (301)
+		- irb.cs.
+		- service. (301)
+		- depot. (301)
+		- fsinfo.cs. (301)
+
+
+	Mixed content:
+
+		- nothing found yet
+
+-->
+<ruleset name="TU-Dortmund.de (partial)">
+
+	<target host="www.tu-dortmund.de" />
+	<target host="www.uni-dortmund.de" />
+	<target host="www.statistik.tu-dortmund.de" />
+	<target host="www.bci.tu-dortmund.de" />
+	<target host="www.raumplanung.tu-dortmund.de" />
+	<target host="www.bauwesen.tu-dortmund.de" />
+	<target host="www.wiso.tu-dortmund.de" />
+	<target host="www.fk12.tu-dortmund.de" />
+	<target host="www.fk-reha.tu-dortmund.de" />
+	<target host="www.lsf.tu-dortmund.de" />
+	<target host="ess.cs.tu-dortmund.de" />
+	<target host="moodle.tu-dortmund.de" />
+	<target host="moodle2.tu-dortmund.de" />
+	<target host="webmail.tu-dortmund.de" />
+	<target host="irb.cs.tu-dortmund.de" />
+	<target host="service.tu-dortmund.de" />
+	<target host="depot.tu-dortmund.de" />
+	<target host="fsinfo.cs.tu-dortmund.de" />
+
+	<rule from="^http:"
+		to="https:" />
+
+</ruleset>
