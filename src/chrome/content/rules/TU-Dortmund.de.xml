@@ -8,6 +8,7 @@
 		- www.physik. (Shows another domain)
 		- www.chemie. (Shows another domain)
 		- www.cs. (Shows another domain)
+		- dbis.cs. (Shows another domain)
 		- www.mb. (Shows another domain)
 		- www.e-technik. (Shows another domain)
 		- www.fk14.
@@ -25,6 +26,7 @@
 		- www.wiso.
 		- www.fk12.
 		- www.fk-reha.
+		- ls11-www.cs.
 		- www.lsf. (301)
 		- ess.cs. (301)
 		- moodle. (301)
@@ -52,6 +54,7 @@
 	<target host="www.wiso.tu-dortmund.de" />
 	<target host="www.fk12.tu-dortmund.de" />
 	<target host="www.fk-reha.tu-dortmund.de" />
+	<target host="ls11-www.cs.tu-dortmund.de" />
 	<target host="www.lsf.tu-dortmund.de" />
 	<target host="ess.cs.tu-dortmund.de" />
 	<target host="moodle.tu-dortmund.de" />
