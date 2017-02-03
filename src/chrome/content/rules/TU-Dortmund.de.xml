@@ -37,6 +37,7 @@
 		- service. (301)
 		- depot. (301)
 		- fsinfo.cs. (301)
+		- www.mathematik.
 
 
 	Mixed content:
@@ -66,6 +67,7 @@
 	<target host="service.tu-dortmund.de" />
 	<target host="depot.tu-dortmund.de" />
 	<target host="fsinfo.cs.tu-dortmund.de" />
+	<target host="www.mathematik.tu-dortmund.de" />
 
 	<rule from="^http:"
 		to="https:" />
